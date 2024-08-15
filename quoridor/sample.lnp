@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\sample.o"
+".\core_cm3.o"
+".\system_lpc17xx.o"
+".\irq_timer.o"
+".\lib_timer.o"
+".\asciilib.o"
+".\glcd.o"
+".\hzlib.o"
+".\scacchiera.o"
+".\startup_lpc17xx.o"
+".\irq_button.o"
+".\lib_button.o"
+".\funct_joystick.o"
+".\lib_joystick.o"
+".\gioco.o"
+".\move.o"
+".\irq_rit.o"
+".\lib_rit.o"
+".\pedina.o"
+".\muro.o"
+".\lib_can.o"
+".\irq_can.o"
+".\ai.o"
+--strict --scatter ".\sample.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\sample.map" -o .\sample.axf

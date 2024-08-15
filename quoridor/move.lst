@@ -1,0 +1,63 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             fun, CODE, READONLY
+    2 00000000         
+    3 00000000                 export           function1
+    4 00000000         
+    5 00000000         function1
+    6 00000000         ;R0=PlayerID
+    7 00000000         ;R1=pMorW
+    8 00000000         ;R2=VorH
+    9 00000000         ;R3=Y
+   10 00000000         ;R4=X
+   11 00000000 46EC            MOV              R12, sp
+   12 00000002 E92D 4DF0       STMFD            sp!,{r4-r8, r10-r11, lr}
+   13 00000006 F8DC 4000       LDR              R4, [r12]
+   14 0000000A         
+   15 0000000A EA4F 6000       LSL              R0, R0, #24
+   16 0000000E EA4F 5101       LSL              R1, R1, #20
+   17 00000012 EA4F 4202       LSL              R2, R2, #16
+   18 00000016 EA4F 2303       LSL              R3, R3, #8
+   19 0000001A         
+   20 0000001A 4408            ADD              R0, R0, R1
+   21 0000001C 4410            ADD              R0, R0, R2
+   22 0000001E 4418            ADD              R0, R0, R3
+   23 00000020 4420            ADD              R0, R0, R4
+   24 00000022         
+   25 00000022 E8BD 8DF0       LDMFD            sp!, {r4-r8, r10-r11, pc}
+   26 00000026         
+   27 00000026                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\move.d -o.\move.o -I.\RTE\_Target_1 -IC:\Users\Arbore\AppData\Lo
+cal\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include -IC:\Users\Arbore\AppData\Loca
+l\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include --predefine="__UVISION_VERSIO
+N SETA 538" --predefine="_RTE_ SETA 1" --predefine="LPC175x_6x SETA 1" --predef
+ine="_RTE_ SETA 1" --list=.\move.lst gioco\move.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+fun 00000000
+
+Symbol: fun
+   Definitions
+      At line 1 in file gioco\move.s
+   Uses
+      None
+Comment: fun unused
+function1 00000000
+
+Symbol: function1
+   Definitions
+      At line 5 in file gioco\move.s
+   Uses
+      At line 3 in file gioco\move.s
+Comment: function1 used once
+2 symbols
+335 symbols in table

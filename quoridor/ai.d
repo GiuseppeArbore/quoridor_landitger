@@ -1,0 +1,17 @@
+.\ai.o: AI\AI.c
+.\ai.o: AI\AI.h
+.\ai.o: C:\Users\Arbore\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h
+.\ai.o: C:\Users\Arbore\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h
+.\ai.o: C:\Keil_v5\ARM\ARMCLANG5\Bin\..\include\stdint.h
+.\ai.o: C:\Users\Arbore\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\ai.o: C:\Users\Arbore\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\ai.o: C:\Users\Arbore\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\ai.o: C:\Users\Arbore\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\ai.o: C:\Users\Arbore\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h
+.\ai.o: AI\../GLCD/GLCD.h
+.\ai.o: AI\../gioco/gioco.h
+.\ai.o: AI\../scacchiera/scacchiera.h
+.\ai.o: AI\../timer/timer.h
+.\ai.o: AI\../pedina/pedina.h
+.\ai.o: AI\../muro/muro.h
+.\ai.o: AI\../RIT/RIT.h
