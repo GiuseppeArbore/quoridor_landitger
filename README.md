@@ -48,7 +48,7 @@ almeno due posizioni rispetto all'NPC. Qualora il pedone avversario sia più vic
 quella di partenza, è sufficiente che detenga un margine di una posizione per essere considerato in posizione di 
 vantaggio.  
 
-__Descrizione Handshaking:__Per la gestione della procedura di handshaking, viene impiegato il campo "stato" della 
+__Descrizione Handshaking:__ Per la gestione della procedura di handshaking, viene impiegato il campo "stato" della 
 variabile globale denominata "myscheda". Tale campo assume diversi valori in base allo stato in cui si trova la 
 procedura di handshaking. In questa maniera, quando il valore del campo dati del messaggio CAN è pari a '0xFF', 
 si procede alla lettura del campo "stato" di "myscheda" al fine di determinare il Player1. Qualora un giocatore 
