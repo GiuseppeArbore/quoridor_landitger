@@ -3,9 +3,9 @@ firmware for a multi-player board game with graphical interface on an ARM based 
 
 ## Application note
 __Autore:__ Giuseppe Arbore, S329535 
-__Introduzione:__ L’obbiettivo di questa application note è fornire istruzioni su come giocare a  
 
-### Quoridor 7x7 usando la scheda LandTiger con SoC LPC1768.  
+__Introduzione:__ L’obbiettivo di questa application note è fornire istruzioni su come giocare a Quoridor 7x7 usando la scheda LandTiger con SoC LPC1768. 
+
 __Descrizione del gioco:__ Quoridor7x7 è una rivisitazione di Quoridor, gioco da tavolo pubblicato nel 1997 dalla casa 
 editrice Gigamic. In contrapposizione alla formulazione originaria, la disposizione della scacchiera non segue uno 
 schema 9x9, bensì 7x7, e ciascun partecipante è dotato di otto barriere anziché dieci. Ciascun giocatore è dotato 
